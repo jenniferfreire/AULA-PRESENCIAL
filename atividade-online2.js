@@ -1,12 +1,12 @@
 //* ------ SISTEMA DE CADASTRO DE EVENTOS ------- *//
 
-// o programa tem como objetivo o cadastramento de eventos de forma simples
-// solicitando:
-// nome do evento
-// data do evento
-// idade do palestrante, sendo que, apenas > 18 podem cadastrar um evento
-// lista de palestrante(S)
-// lista de participantes, sendo que, apenas podem ser listas até 100 participantes
+// O programa tem como objetivo o cadastramento de eventos de forma simples
+// Solicitando:
+// - nome do evento
+// - data do evento
+// - idade do palestrante, sendo que, apenas > 18 podem cadastrar um evento
+// - lista de palestrante(S)
+// - lista de participantes, sendo que, apenas podem ser listas até 100 participantes
 
 ////     VARIÁVEIS    ////
 
