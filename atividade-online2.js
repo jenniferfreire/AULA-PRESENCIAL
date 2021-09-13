@@ -12,7 +12,7 @@
 
 let idade = 22;
 let datadoevento = (22+'/'+09+'/'+2021);
-let listadepart = ["Participante 1"," Participante 2"," Participante 3"," Participante 4"," Participante 5"," Participante 6"," Participante 7"," Participante 8"];
+let listadepart = ["Participante 1","Participante 2","Participante 3","Participante 4","Participante 5","Participante 6","Participante 7","Participante 8"];
 let nomeevento = '"Como a linguagem Python máximiza seu trabalho?"';
 let listadepale = ["Palestrante 1", " Palestrante 2"];
 
@@ -42,14 +42,12 @@ switch (evento) {
     console.log(`Evento agendado.`)
         break;
     default: 
-    console.log(`Data inválida.`)  
+    console.log(`Data inválida.`)     
         return console.log(`Digite outra data para o evento:`)
         break;
 }        
 
 // ------------------- Solicitando valor IDADE ------------------ //
-
-
 
 console.log(`Digite sua idade: ` + idade);
 
@@ -68,22 +66,22 @@ switch (idade1) {
 // ------------ Solicitando nome do PALESTRANTE ----------------- //     
 
 console.log(`Insira o nome do(s) palestrante(s): `);
-
-    console.log(`Palestrantes do evento: ` + listadepale)
+    console.log(`Palestrantes do evento:`);
+        console.log(listadepale);
 
 // ----------- Solicitando nome do PARTICIPANTE ----------------- // 
 
 console.log(`Insira o nome dos participantes:`);
-
-    console.log(`Participantes do evento: ` + listadepart);
+    console.log(`Participantes do evento:`);
+        console.log(listadepart);   
 
 let participantes = true == listadepart.length <= 100;
 
 switch (participantes) {
     case true:
-        console.log(`Cadastro realizado com sucesso.`)
+        console.log(`Cadastro realizado com sucesso.`)        
         break;  
     default:
         console.log(`Cadastro não permitido. Limite de participantes exedido.`)
-        break;
+        break;        
 }
