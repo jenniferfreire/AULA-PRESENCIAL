@@ -1,0 +1,21 @@
+.center{
+    text-align: center;
+    color:royalblue;
+    font-size: 85px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Parágrafo{
+    font-size: 65px;
+    color: slateblue;
+    text-align: center;
+}
+body{
+    background-color: lightcyan;
+}
+img{
+    position:absolute;
+		left:50%;
+		top:50%;
+		margin-left:-110px;
+		margin-top:-40px;
+}
