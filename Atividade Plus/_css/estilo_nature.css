@@ -67,14 +67,13 @@ body{
 }
 
 #direita{
-    position: fixed;
+    position:absolute;
     padding: 20px 25px;
     margin:0px;
     width: 288px; /*30% da página*/
     height: 360px;
+    border-top: 5px solid green;
     border-radius: 16px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, .2),
-    0 2px 7px rgba(0, 0, 0, 0.1);
     top: 21%;
     margin-left: 64.3%;
     display:block;
