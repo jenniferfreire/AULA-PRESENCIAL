@@ -1,0 +1,143 @@
+body{
+    background-color: #F0F0F0;
+    height: 100%;
+    margin: 0;
+}
+
+.cabeçalho{
+    position: absolute;
+    padding: 5px 100px;
+    margin:0px;
+    width: 960px;
+    height: 120px;
+    top: -1%;
+    margin-left: 14.5%;
+    margin-right: 25%;
+    border: 1px solid black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: block;
+    background-color: black;
+}
+
+.logo{
+    z-index: 1000px;
+    position: absolute;
+    margin-left: -5%;
+    margin-top: 2%;
+}
+
+.form-inline{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 55%;
+}
+
+#esquerda{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    position: absolute;
+    padding: 100px 25px;
+    margin:0px;
+    width: 672px; /*70% da página*/
+    height: 411px;
+    top: 18%;
+    margin-left: 14.5%;
+    margin-right: 25%;
+    display: block;
+    background-color: white;
+}
+
+.news{
+    position: absolute;
+     margin-top: -12%;
+     margin-left: 39%;
+     background-color: green;
+     border-radius: 1px;
+     color: #FFFFFF;
+     display: block;
+     font-family: Inria Sans;
+     font-size: 12px;
+     line-height: 20px;
+     text-align: center;
+     text-decoration: none;
+     text-transform: uppercase;
+     padding: 6px 9px;
+     width: 100px;
+}
+
+#direita{
+    position: fixed;
+    padding: 20px 25px;
+    margin:0px;
+    width: 288px; /*30% da página*/
+    height: 360px;
+    border-radius: 16px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .2),
+    0 2px 7px rgba(0, 0, 0, 0.1);
+    top: 21%;
+    margin-left: 64.3%;
+    display:block;
+    background-color: #FCFCFC;
+}
+
+footer{
+    font-family: Inria Sans;
+    font-size: 12px;
+    color: #818181;
+    position: absolute;
+    padding: 5px 100px;
+    margin:0px;
+    width: 960px;
+    height: 218px;
+    top: 240%;
+    margin-left: 15%;
+    margin-right: 25%;
+    display: block;
+    background-color: white;
+}
+
+#blocoA{
+    position: absolute;
+    width: 28%;
+    margin-left: -5%;
+    margin-block-start: 6%;
+    display: block;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+}
+
+#blocoB{
+    position: absolute;
+    width: 28%;
+    margin-left: 30%;
+    display:block;
+    margin-block-start: 2.5%;
+    align-items: left;
+    justify-items: left;
+    text-align: left;
+}
+
+#blocoC{
+    position: absolute;
+    width: 28%;
+    margin-left: 55%;
+    margin-block-start: 4%;
+    display:block;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+}
+
+.form-control{
+    display: flex;
+    width: 25%;
+    height: calc(2rem + 2px);
+    padding: .37rem .7rem;
+} 
+
+.btn.btn-outline-secondary:hover{
+  background-color:green;
+  border-color:green;
+}
