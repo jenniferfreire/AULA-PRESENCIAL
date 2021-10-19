@@ -90,11 +90,12 @@ body{
         font-size: 28px; 
         color: white;
         position: absolute; 
-        display: flex;
+        display: block;
         align-items: center;
         text-align: justify;
-        margin-left: 6%; 
-        margin-top: 8%;
+        margin-left: 10%; 
+        margin-top: 1.5%;
+        margin-right: 10%;
     }
     
     .news{
