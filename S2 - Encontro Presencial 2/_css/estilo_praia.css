@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabeçalho{
+    background-color: #F6D7A7;
+    height: 120px;
+    font-family: Homenaje; 
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content:center;
+}
+
+.col{
+    background-color: #C8E3D4;
+    font-family: Homenaje;
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.nome{
+    font-family: 'Satisfy', cursive;
+    font-size: 80px;
+}
+
+#conteúdo{
+    background-color: #F6EABE;
+    height: 980px;
+    padding: 100px;
+}
+
+h1,h5{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#videos{
+    background-color: #F6EABE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+
+#fotos{
+    background-color: #F6EABE;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    height: 620px;
+}
+
+img{
+    margin-top: 1.8%;
+    height: 580px;
+}
+
+#rodapé{
+    background: #87AAAA;
+    height: 160px;
+}
+
+.bloco{
+    position: absolute;
+    width: 28%;
+    margin-left: 29.5%;
+    margin-block-start: 4%;
+    display:block;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+}
+
+.btn.btn-outline-secondary:hover{
+    background-color:gray;
+    border-color:gray;}
+
+
+@media screen and (max-width:1000px) {
+    iframe {width: 120px; height:110px}
+    img {height: 320px;}
+    p {font-size: 11px;}
+    #conteúdo {height: auto; padding: 50px;}
+    #fotos {height: 345px;}
+    #videos {height: 150px;}
+    .bloco {width: 65%; margin-left: 17%;}
+    .nome {font-size: 45px;}
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://wallpapercave.com/wp/4L5OhqD.jpg);
+    background-size: cover;
+}
+
+#box{
+    background-color: black;
+    border: 5px solid gray;
+    border-style: dotted;
+    border-radius: 16px;
+    margin-top: 10%;
+    margin-left: 26%;
+    width: 540px;
+    height: 450px;
+}
+
+.botões{
+    margin-left: 8.5%;
+}
