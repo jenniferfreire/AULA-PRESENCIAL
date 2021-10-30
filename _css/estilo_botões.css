@@ -15,10 +15,20 @@ body{
     border-radius: 16px;
     margin-top: 10%;
     margin-left: 26%;
-    width: 540px;
-    height: 450px;
+    width: 620px;
+    height: 480px;
 }
 
 .botões{
-    margin-left: 8.5%;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    align-items: center;
+    justify-content: center;
+    width: 580px;
+    height: 400px;
 }
