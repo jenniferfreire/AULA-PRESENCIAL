@@ -1,14 +1,16 @@
 *{
     margin: 0;
-    height: 100%;
+    padding: 0;
+}
+
+body{
+    background-color: black;
 }
 
 .container{
     position: absolute;
     background-color: aqua; 
     margin: auto;
-    display: block;
-    margin-right: 100px;
     padding: 10% 10%;
 }
 
