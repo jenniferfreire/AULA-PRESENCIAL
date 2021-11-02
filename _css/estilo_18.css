@@ -82,3 +82,12 @@ img{
     padding: 10px 8px;
     margin-top: 120px;
 }
+
+@media screen and (max-width: 1000px){
+    #logo,#nav{padding: 90px 300px;}
+    #box{padding: 40px 240px; margin-left: 16%;margin-top: 22%;}
+    img{margin-top: -60px;}
+    .maiorde18{margin-top: 70px;}
+    #botao1{margin-top: 210px;}
+    #botao2{margin-top: -58px; margin-left: 14px;}
+}
