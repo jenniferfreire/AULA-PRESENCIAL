@@ -1,16 +1,84 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+};
+
+body {
+    background-color: #D4ECDD;
 }
 
-body{
+#logo{
+    background-color: #152D35;
+    height: 120px;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content:center;
+}
+
+.single-color{
+    color: #D4ECDD;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+/*.gradient{
+    background-image: linear-gradient(to bottom,rgb(21, 45, 53), rgb(52, 91, 99),  rgb(212, 236, 221));
+    background-clip: text;  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}*/
+
+#nav{
+    background-color: #152D35;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #D4ECDD;
+}
+
+.nav-link:hover{
+    color: #345B63;
+}
+
+#box{
     background-color: black;
+    border: 3px solid yellow; 
+    box-shadow: 5px 5px 8px #345B63;
+    border-radius: 16px;
+    padding: 80px 240px;
+    margin-top: 4%;
+    margin-left: 28%;
+    display: flex;
 }
 
-.container{
+img{
     position: absolute;
-    background-color: aqua; 
-    margin: auto;
-    padding: 10% 10%;
+    margin-top: -70px;    
+    margin-left: 55px;
 }
 
+.maiorde18{
+    position: absolute;
+    margin-left: -120px;
+    color: white;
+    font-size: 23px;
+}
+
+#botao1{
+    position: block;
+    padding: 10px 80px;
+    margin-top: 120px;
+    margin-left: -130px;
+}
+#botao2{
+    position: block;
+    padding: 10px 8px;
+    margin-top: 120px;
+}
