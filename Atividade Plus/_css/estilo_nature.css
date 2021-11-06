@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: #F0F0F0;
     height: 100%;
@@ -139,4 +144,12 @@ footer{
 .btn.btn-outline-secondary:hover{
   background-color:green;
   border-color:green;
+}
+
+@media screen and (max_width:1000px)
+{
+    #blocoA{margin-left: -15%;}
+    #blocoB{margin-left: 20%;}
+    #blocoC{margin-left: 40%;}
+    .cabeçalho{width: }
 }
