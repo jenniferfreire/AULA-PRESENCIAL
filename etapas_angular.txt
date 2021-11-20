@@ -1,0 +1,23 @@
+ ============= ETAPAS ==========
+cd ..
+
+cd ..
+
+cd (entrar na pasta)
+
+>dir
+
+npm install -g @angular/cli
+
+ng new training-bank
+
+-> y
+
+-> css
+
+cd training-bank
+
+code .
+
+ng serve / ng s
+
