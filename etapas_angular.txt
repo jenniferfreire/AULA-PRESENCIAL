@@ -21,3 +21,9 @@ code .
 
 ng serve / ng s
 
+
+======== OUTRO PROMPT =======
+
+npm install --save @angular/material @angular/cdk
+
+npm install --save @angular/animations
