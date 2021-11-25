@@ -27,7 +27,7 @@
      text-decoration: none;
      text-transform: uppercase;
      padding: 5px 20px;
-     width: 100px;
+     width: 140px;
         }
 
         #produtos{
@@ -48,7 +48,7 @@
      text-decoration: none;
      text-transform: uppercase;
      padding: 5px 20px;
-     width: 100px;
+     width: 130px;
         }
 
         #contato{
@@ -69,7 +69,7 @@
      text-decoration: none;
      text-transform: uppercase;
      padding: 5px 20px;
-     width: 100px;
+     width: 134px;
         }
 
         div.faixa{
@@ -135,7 +135,7 @@
     font-size: 21px;
         } 
 
-        .nome{
+    /*    .nome{
     position:absolute; 
     margin-top: 22.7% ;
     margin-left: 32%; 
@@ -198,7 +198,71 @@
      text-transform: uppercase;
      padding: 10.5px 20px;
      width: 100px;
-        }
+        }*/
+
+#nome{
+    position:absolute; 
+    margin-top: 22.2% ;
+    margin-left: 32%; 
+    width: 250px;
+    padding: 8px 16px;
+
+}
+#email{
+    position:absolute; 
+    margin-top: 22.2% ;
+    margin-left: 54%; 
+    width: 315px;
+    padding: 8px 15px
+}
+
+#cadastro{
+     position: absolute;
+     margin-top: 22.2%;
+     margin-left: 81%;
+}
+
+/* --------     BOTÃO      ---------- */
+
+.btn-botao {
+    color: #fff;
+    background-color: rgb(113, 1, 1);
+    border-color: rgb(113, 1, 1);
+  }
+  
+  .btn-botao:hover {
+    color: #fff;
+    background-color: rgb(113, 1, 1);
+    border-color: rgb(113, 1, 1);
+  }
+  
+  .btn-botao:focus, .btn-botao.focus {
+    box-shadow: 0 0 0 0.2rem rgb(141, 0, 0);
+  }
+  
+  .btn-botao.disabled, .btn-botao:disabled {
+    color: #fff;
+    background-color: rgb(113, 1, 1);
+    border-color: rgb(113, 1, 1);
+  }
+  
+  .btn-botao:not(:disabled):not(.disabled):active, .btn-botao:not(:disabled):not(.disabled).active,
+  .show > .btn-botao.dropdown-toggle {
+    color: #fff;
+    background-color: rgb(113, 1, 1);
+    border-color: rgb(88, 2, 2);
+  }
+  
+  .btn-botao:not(:disabled):not(.disabled):active:focus, .btn-botao:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-botao.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgb(141, 0, 0);
+  }
+
+  .btn-outline-botao:not(:disabled):not(.disabled):active:focus, .btn-outline-botao:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-botao.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem white;
+  }
+/* --------     BOTÃO      ---------- */
 
         #r_sobre_nós{
     font-family: Inria Sans;

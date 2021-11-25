@@ -8,8 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GAME MANIA</title>
     <link rel="stylesheet" href="_css/estilo_priva.css">
+        <!------ CSS BOOTSTRAP ----->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color: #000424;">
     <!------------------- LOGO   ---------->
     <a href="home_page.html"><img src="_imagem/logo.png" class="logo" alt="Logo da empresa" width="21%"></a>
     <!------------- LINKS SUPERIORES -------->
@@ -226,7 +228,7 @@
     </p>
     </div>
     <!--------------   RODAPÉ    ----------->    
-    <div style="margin-top: 740%;">
+    <div style="margin-top: 808%;">
     <img style="position: absolute; margin-top: 52%" src="_imagem/base_rodape.png" alt="rodapé" width="100%">
     <h1 class="news">
         <i>Game Mania</i> News
@@ -234,11 +236,17 @@
             Receba oferetas exclusivas no seu e-mail.
         </h2>
     </h1>
-    <p class="nome" >Qual é o seu nome?</p>
-    <p class="email">Seu email?</p>
-    <div class="content">
-        <a href="#" class="cadastro">CADASTRAR</a>
-       </div>
+    <div id="nome" class="input-group input-group-sm mb-3">
+        <div class="input-group-prepend">
+        </div>
+        <input type="text" class="form-control" aria-label="Exemplo do tamanho do input" aria-describedby="inputGroup-sizing-sm" placeholder="Qual é o seu nome?">
+      </div>
+    <div id="email" class="input-group input-group-sm mb-3">
+        <div class="input-group-prepend">
+        </div>
+        <input type="text" class="form-control" aria-label="Exemplo do tamanho do input" aria-describedby="inputGroup-sizing-sm" placeholder="Seu e-mail?">
+    </div>    
+    <button id="cadastro" type="button" class="btn btn-botao">Cadastrar</button>
     <h1 style="margin-left: 12%; margin-top: 62%;" id="r_sobre_nós">
         SOBRE NÓS
     </h1>
