@@ -1,0 +1,36 @@
+Necessario instalar:
+NodeJS 
+Visual Studio Code
+
+para instalar o angular abra o prompt de comando do windows como administrador e digite:
+
+npm install -g @angular/cli
+apos instalação crie uma pasta com o comando mkdir nome-da-pasta
+acesse a pasta criada pelo prompt de comando e digite ng new nome-da-workspace
+
+No VSCode, abra o terminal com o atalho ctrl + shift + ‘ e
+digite o seguinte comando: cd nome-da-sua-workspace
+Depois, digite: ng add @angular/material
+
+CRIAR COMPONENTES NO ANGULAR : ng g c nome-da-pasta/nome-do-arquivo
+
+ACESSANDO A PÁGINA INDEX
+
+1. Digite o comando ng serve no Terminal; note que é gerada uma
+URL
+
+Caso deseje, é possível alterar o número da porta, por exemplo, ng serve
+--port 808
+
+2. O comando ng serve -open ou ng
+serve -o (abreviado) abre
+automaticamente o browser. Caso
+deseje, você pode passar o comando
+ng serve --port 333 -o ou ng serve --
+port 333 -open. Dessa forma, você
+está passando três comandos, sendo:
+ng serve, para subir a aplicação, --
+port, para mudar o número da porta
+(localhost), e -open, para abrir o
+navegador automaticamente.
+                                        
