@@ -1,0 +1,35 @@
+UC10 - INTERAÇÃO COM API
+
+*criar novo workspace
+
+*criar uma pasta (back-end)
+
+*abrir terminal
+
+*entrar na pasta (cd back-end)
+
+*npm init -y 
+    - aquivo packge.json
+
+*npm i json-server 
+   - pasta node_modules
+   - arquivo package-lock.json
+
+* criar o arquivo db.json
+
+* no arquivo package.json
+     - mudar apartir de "teste" para:
+    "scripts": {
+    "start": "json-server --watch db.json --port 3001"
+
+* npm start
+
+http://localhost:3001/login
+
+entrar no site https://www.postman.com/
+(login pela conta Google)
+
+GET - pega o código
+POST - inserir dados no código
+PUT - altera as informações
+DELETE - apagar os dados
