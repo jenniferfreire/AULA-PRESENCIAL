@@ -1,0 +1,31 @@
+ng config -g cli.warnings.versionMismatch false
+
+senha SQL : 215329703
+
+================================================
+
+        --------   *  JAVA  *  --------
+
+para funcionar, usar: 
+
+public static void main (String args[]){}
+
+- static : compartilha
+
+- void : valor de retorno
+
+- main : nome do método compilador
+
+- int : números inteiros
+
+- double : números fracionados
+ 
+- usasse % para ter o resto de uma divisão
+
+- boolean : valor lógico (verdadeiro ou falso)
+
+- while : enquanto
+
+- System.out.println : o que é exibido na tela
+
+ *algumas palavras precisam começar com letra maiuscula
