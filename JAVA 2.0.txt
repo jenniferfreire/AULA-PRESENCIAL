@@ -1,0 +1,17 @@
+                PASSO A PASSO
+		JAVA 18/12
+
+- abrir o diretório
+
+- file -> Open Projects from File System -> Finish
+
+- botão direito em CaixaEletronico-> Build Path -> Configure Build Path -> Classpath -> Add External JARs... -> Selecionar a pasta com nome jbboss
+
+- Project Facets -> Runtimes -> NEW -> WildFly 24. Runtime -> Next -> mudar o nome para Wildfly 25.0 -> Browser -> pasta wildfly-25 -> Finish
+
+- abrir src -> main -> java -> classes -> dois cliques em ConectaBD.java -> mudar para: 
+
+public String usuario="root";
+public String senha="215329703";
+
+-> salvar -> botão direito em ConectaBD.java -> Run As -> Run on Serve -> Next -> Next -> Seleciona CaixaEletronico -> Finish 
