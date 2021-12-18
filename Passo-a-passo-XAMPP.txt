@@ -1,0 +1,21 @@
+           -------  XAMPP ------
+	     * PASSO A PASSO *
+
+- Em Actions 
+Apache e MySQL (start)
+
+- entrar na pasta xampp
+
+- entrar na pasta htdocs 
+
+- criar pasta 
+
+- abrir pasta criada no visual code
+
+- criar um arquivo chamado index em .php
+
+- inserir o comando <?php (echo) ?>
+
+* echo tem a mesma função de console.log (imprimir)
+
+- abrir no navegador localhost/(nome da pasta criada)
