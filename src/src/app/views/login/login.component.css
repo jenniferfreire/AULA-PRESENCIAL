@@ -1,0 +1,103 @@
+        /* Bordered form */
+        form {
+            border: 3px solid transparent;
+          }
+          
+          /* Full-width inputs */
+          input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-sizing: border-box;
+          }
+          
+          /* Set a style for all buttons */
+          button {
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            height:auto;
+            padding: 10px 0;
+            font-size:14px bold;
+            text-align:center;
+            border-radius:30px;
+            border:1px solid;
+          }
+          
+          #myModalLabel {
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            height:auto;
+            padding: 10px 0;
+            font-size:14px bolder;
+            text-align:center;
+            border-radius:30px;
+            border:1px solid;
+            background-color:#4fd8e8;
+            background-image: linear-gradient(to right, transparent, rgba(30, 51, 167, 0.459)55%); 
+          }
+
+          /* Add a hover effect for buttons */
+          button:hover {
+            opacity: 0.8;
+          }
+          
+          /* Extra style for the cancel button (red) */
+          .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #f44336;
+            margin-left: 10px;
+            border-radius: 8px;
+          }
+          
+          /* Add padding to containers */
+          .container {
+              margin-top: 80px;
+              width: 550px;
+              padding: 1px;  
+          }
+          
+          /* The "Forgot password" text */
+          span.psw {
+            float: right;
+            margin-right: 10px;
+            padding-top: 16px;
+          }
+
+          .modal{
+            background-color: white;
+            display: none; /* Hidden by default */
+            width: 50%;
+            position: absolute; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 25%;
+            top: 0;
+        }
+
+        strong{
+          display: block; 
+          text-align: center;
+          justify-content: center;
+        }
+          
+          /* Change styles for span and cancel button on extra small screens */
+          @media screen and (max-width: 300px) {
+            span.psw {
+              display: block;
+              float: none;
+            }
+            .cancelbtn {
+              width: 100%;
+            }
+          }
